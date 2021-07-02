@@ -1,0 +1,14 @@
+ul {
+  li {
+    + li {
+      border-bottom: 1px solid #666;
+    }
+    ~ li {
+      color: #F00;
+    }
+
+    > div {
+      background: #ccc;
+    }
+  }
+}
